@@ -1,0 +1,131 @@
+/* Dark Theme Styles */
+.dark {
+  color-scheme: dark;
+}
+
+.dark body {
+  @apply bg-gray-900;
+}
+
+.dark .bg-gradient-to-br.from-gray-50 {
+  @apply from-gray-900 via-gray-800/30 to-gray-900;
+}
+
+.dark .bg-white {
+  @apply bg-gray-800;
+}
+
+.dark .bg-gray-50 {
+  @apply bg-gray-700;
+}
+
+.dark .bg-gray-100 {
+  @apply bg-gray-700;
+}
+
+.dark .bg-gray-200 {
+  @apply bg-gray-600;
+}
+
+.dark .text-gray-900 {
+  @apply text-white;
+}
+
+.dark .text-gray-800 {
+  @apply text-gray-100;
+}
+
+.dark .text-gray-700 {
+  @apply text-gray-200;
+}
+
+.dark .text-gray-600 {
+  @apply text-gray-300;
+}
+
+.dark .text-gray-500 {
+  @apply text-gray-400;
+}
+
+.dark .border-gray-100 {
+  @apply border-gray-700;
+}
+
+.dark .border-gray-200 {
+  @apply border-gray-700;
+}
+
+.dark .border-gray-300 {
+  @apply border-gray-600;
+}
+
+.dark .hover\:bg-gray-50:hover {
+  @apply bg-gray-700;
+}
+
+.dark .hover\:bg-gray-100:hover {
+  @apply bg-gray-700;
+}
+
+.dark .hover\:text-gray-900:hover {
+  @apply text-white;
+}
+
+/* Card backgrounds in dark mode */
+.dark .bg-gradient-to-br.from-blue-50 {
+  @apply from-blue-900/30 to-blue-800/20;
+}
+
+.dark .bg-gradient-to-br.from-red-50 {
+  @apply from-red-900/30 to-red-800/20;
+}
+
+.dark .bg-gradient-to-br.from-orange-50 {
+  @apply from-orange-900/30 to-orange-800/20;
+}
+
+.dark .bg-gradient-to-br.from-yellow-50 {
+  @apply from-yellow-900/30 to-yellow-800/20;
+}
+
+.dark .bg-gradient-to-br.from-green-50 {
+  @apply from-green-900/30 to-green-800/20;
+}
+
+.dark .bg-gradient-to-br.from-purple-50 {
+  @apply from-purple-900/30 to-purple-800/20;
+}
+
+.dark .bg-gradient-to-br.from-pink-50 {
+  @apply from-pink-900/30 to-pink-800/20;
+}
+
+.dark .bg-gradient-to-br.from-indigo-50 {
+  @apply from-indigo-900/30 to-indigo-800/20;
+}
+
+.dark .bg-gradient-to-br.from-teal-50 {
+  @apply from-teal-900/30 to-teal-800/20;
+}
+
+.dark .bg-gradient-to-br.from-emerald-50 {
+  @apply from-emerald-900/30 to-emerald-800/20;
+}
+
+/* Backdrop blur */
+.dark .bg-white\/80 {
+  @apply bg-gray-800/80;
+}
+
+/* Shadows in dark mode */
+.dark .shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+}
+
+.dark .shadow-xl {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.dark .shadow-2xl {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+}
