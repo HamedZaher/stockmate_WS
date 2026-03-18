@@ -7,7 +7,7 @@ const ProtectedComponent = ({ children }: { children: ReactNode }) => {
   if (!token) {
     navigate("login");
   }
-  return <>{children}</>;
+  return <div className="">{children}</div>;
 };
 
 export default ProtectedComponent;

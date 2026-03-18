@@ -1,9 +1,17 @@
-import React from "react";
-
+import { useTranslation } from "react-i18next";
+import useSidebar from "../../hooks/useSidebar";
 const AppHeader = () => {
+  const { isHidden, setIsHidden } = useSidebar();
   return (
-    <header className="sticky top-0 z-30 mx-4 mt-4">
-      <div className="flex h-20 items-center gap-4 bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl px-8 shadow-lg border border-gray-200/50 dark:border-gray-700/50"></div>
+    <header className="sticky top-0 z-30 mt-3 w-full">
+      <div className="flex h-20 items-center gap-4 bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl px-8 shadow-lg border border-gray-200/50 dark:border-gray-700/50">
+        <div
+          onClick={() => {
+            setIsHidden((prev) => !prev);
+          }}
+          className="w-5 h-5 bg-red-200 "
+        ></div>
+      </div>
     </header>
   );
 };
